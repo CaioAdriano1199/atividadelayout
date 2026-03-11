@@ -17,6 +17,8 @@ import telas.tela1
 import telas.tela2
 import telas.tela3
 import telas.tela4
+import telas.tela5
+import telas.tela7
 
 class MainActivity : ComponentActivity() {
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
@@ -37,7 +39,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun meuapp() {
-    tela4()
+    tela7()
 }
 
 @Preview(showBackground = true)
