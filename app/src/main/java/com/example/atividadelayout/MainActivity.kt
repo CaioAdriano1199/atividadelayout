@@ -18,6 +18,7 @@ import telas.tela2
 import telas.tela3
 import telas.tela4
 import telas.tela5
+import telas.tela6
 import telas.tela7
 
 class MainActivity : ComponentActivity() {
@@ -39,7 +40,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun meuapp() {
-    tela7()
+    tela6()
 }
 
 @Preview(showBackground = true)
